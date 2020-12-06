@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum Online LAM</title>
     <link rel="stylesheet" href="menutop.css">
+    <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carrois Gothic SC">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic">
 </head>
@@ -17,17 +18,28 @@
     }
 </script>
 <body>
-<header class="menuhead">
-    <p><a href="https://www.lamlisse.nl/"><img border="0" alt="LAMImage" src="images/iconimage.png" class="logolam"></a></p>
-    <p class="XR">XR</p>
-        <nav>
-            <ul>
-                <button class="buttonmenu">ONTDEK</button>
-                <button class="buttonmenu" onclick="NaarContact()">CONTACT</button>
-                <button class="buttonmenu" onclick="NaarTickets()">TICKETS</button>
-            </ul>
-        </nav>
-</header>
-<p>Test</p>
+    <header class="menuhead">
+        <p><a href="https://www.lamlisse.nl/"><img border="0" alt="LAMImage" src="images/iconimage.png" class="logolam"></a></p>
+        <p class="XR">XR
+        <button class="buttonmenu">ONTDEK</button>
+        <button class="buttonmenu" onclick="NaarContact()">CONTACT</button>
+        <button class="buttonmenu" onclick="NaarTickets()">TICKETS</button>
+        </p>
+    </header>
+
+    <div class="film">
+        <p id="tekst-film">Webxr Filmpje</p>
+    </div>
+
+    <div class="hgbjwebxr">
+        <h2>Hoe gebruik je WebXR?</h2>
+    </div>
+
+    <div class="icon-container">
+        <div id="icon-div1"></div>
+        <div id="icon-div2"></div>
+        <div id="icon-div3"></div>
+        <div id="icon-div4"></div>
+    </div>
 </body>
 </html>
