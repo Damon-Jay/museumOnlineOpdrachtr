@@ -15,6 +15,13 @@
     margin-right: auto;
 }
 
+.iconscenter{
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    width: 90%;
+}
 
 .hgbjwebxr{
     font-family: sans-serif;
@@ -27,43 +34,73 @@
 }
 
 .icon-container{
-    width: 90%;
+    max-width: 100%;
     height: 475px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: lime;
 }
 
 #icon-div1{
     width: 300px;
-    height: 450px;
+    height: 425px;
     background-color: red;
     display: inline-block;
-    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #icon-div2{
     width: 300px;
-    height: 450px;
+    height: 425px;
     background-color: red;
     display: inline-block;
-    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #icon-div3{
     width: 300px;
-    height: 450px;
+    height: 425px;
     background-color: red;
     display: inline-block;
-    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #icon-div4{
     width: 300px;
-    height: 450px;
+    height: 425px;
     background-color: red;
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 0px;
+    margin-top: 25px;
+}
+
+.iconplaceholder{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.texticontitleplaceholder{
+    background-color: purple;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position:static;
+}
+
+.textplacementicon{
+    text-align: center;
+}
+
+
+
+.decsplaceholder{
+    background-color: yellow;
+    width: 250px;
+    height: 75px;
+    position:static;
 }

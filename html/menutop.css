@@ -1,7 +1,6 @@
 body,html{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 .menuhead{
@@ -39,12 +38,32 @@ body,html{
     padding: 0px 30px;
     font-family: 'Nanum Gothic';
     font-size: 20px;
+    display: flex;
     outline:none;
     background-color: Transparent;
     border: none;
     color: #000000;
     top: 0px;
     float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .logolam{
+        width: 50px;
+        padding-left: 10px;
+    }
+    .menuhead{
+        height: 50px;
+    }
+    .XR{
+        padding-left: 65px;
+        padding-top: 2.5px;
+        font-size: 15px;
+    }
+    .buttonmenu{
+        font-size: 15px;
+        padding:0px 10px;
+    }
 }
 
 .buttonmenu:hover{
