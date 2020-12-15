@@ -219,4 +219,12 @@ body,html{
     .decsicon {
         font-size: 12px;
     }
+    .webxrcontainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .iconcontainer {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
