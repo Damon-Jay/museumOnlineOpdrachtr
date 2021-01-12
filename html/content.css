@@ -235,7 +235,6 @@ body,html{
 .formcontact{
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 100px;
 }
 
 /*? Dit is de CSS voor forum (Background (midden)*/
@@ -400,9 +399,7 @@ input[type=submit]:hover {
     .adresholder{
         font-size: 12px;
     }
-
     .formcontact{
         margin-top: 300px;
     }
 }
-
