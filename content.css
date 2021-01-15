@@ -1,0 +1,405 @@
+/*?Dit is de CSS voor de body*/
+body,html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/*?Dit is de CSS voor de menu (Bovenkant)*/
+
+.menuheader{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 5px 10px 20px #888888;
+    z-index: 1;
+}
+/*?Dit is de CSS voor de menu (Logo (Links)*/
+.logolam{
+    width: 100px;
+    position: fixed;
+    padding-left: 30px;
+}
+
+/*?Dit is de CSS voor de menu (Tekst (Links)*/
+.XR_Teken{
+    padding-left: 140px;
+    padding-top: 5px;
+    font-family: 'Carrois Gothic SC';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*?Dit is de CSS voor de menu (Knoppen (rechts)*/
+.buttonmenu{
+    padding: 0px 30px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    display: flex;
+    outline:none;
+    background-color: Transparent;
+    border: none;
+    color: #000000;
+    top: 0px;
+    float: right;
+}
+
+/*?Dit is de CSS voor de menu (Knoppen (hover color change)*/
+.buttonmenu:hover{
+    color: #996f52;
+    cursor: pointer;
+}
+
+.contactmenuscroll{
+    text-decoration: none;
+    color: black;
+}
+
+.contactmenuscroll:hover{
+    color: #996f52;
+    cursor: pointer;
+}
+
+.clickimage:hover{
+    cursor: pointer;
+}
+
+/**Dit is de CSS voor de Container (Webxr (midden)*/
+.webxrcontainer{
+    margin-top: 75px;
+    max-width: 100%;
+    height: 475px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/**Dit is de CSS voor de Container (Tittle (Links)*/
+.webxrtitleplaceholder{
+    height: 25px;
+    width: 20%;
+    padding-bottom: 0px;
+}
+
+/**Dit is de CSS voor de Container (Tittle (Rechts)*/
+.webxrtitleplaceholder2{
+    height: 25px;
+    width: 20%;
+    padding-bottom: 0px;
+    margin-top: -25px;
+    float: right;
+    margin-right: 25%;
+}
+
+/**Dit is de CSS voor de Webxr (Tittle (Links)*/
+.webxrtitle {
+    font-family: sans-serif;
+}
+/**Dit is de CSS voor de Webxr (Tittle (Rechts)*/
+.webxrtitle2{
+    margin-top: -1px;
+    font-family: sans-serif;
+}
+
+/**Dit is de CSS voor de Webxr (elementen (midden)*/
+.webxrcontent{
+    width: 100%;
+    height: 450px;
+    background-color: red;
+    position:static;
+    display: inline-block;
+}
+
+/**Dit is de CSS voor de Webxr (elementen (midden)*/
+.webarcontent1{
+    width: 45%;
+    height: 450px;
+    background-color: red;
+    position:static;
+    display: inline-block;
+}
+
+/**Dit is de CSS voor de Webxr (elementen (midden)*/
+.webarcontent2{
+    width: 45%;
+    height: 450px;
+    background-color: red;
+    position:static;
+    float: right;
+}
+
+
+/*! Dit is de CSS voor film (container (midden)*/
+.film{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+/*! Dit is de CSS voor vraag "Hoe gebruik je webxr" (tekst (midden)*/
+.hgbjwebxr{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** Dit is de CSS voor icons (container (midden)*/
+.iconcontainer{
+    margin-top: 25px;
+    max-width: 100%;
+    height: 735px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/** Dit is de CSS voor icons (container (midden)*/
+.icon-divs{
+    height: 150px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+/** Dit is de CSS voor icons (container (Rechts)*/
+.iconplacementholder {
+    width: 20%;
+    height: 150px;
+    display: inline-block;
+    position: static;
+}
+
+/** Dit is de CSS voor tekst (container (Rechts)*/
+.textplacementholder {
+    width: 77%;
+    height: 150px;
+    display: inline-block;
+    position: static;
+}
+
+/** Dit is de CSS voor tekst (Tekst (Rechts)*/
+.texticon{
+    margin-left: 3%;
+    height: 30px;
+    float: left;
+    font-family: sans-serif;
+}
+
+/** Dit is de CSS voor tekst (Tekst (Rechts)*/
+.decsicon{
+    margin-left: 3%;
+    float: left;
+    margin-top: -15px;
+    font-family: sans-serif;
+}
+
+/*! Dit is de CSS voor footer (Container (midden)*/
+.footerontdek {
+    margin-top: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: black;
+}
+
+/*! Dit is de CSS voor footer (Tekst (midden)*/
+.footerp {
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*! Dit is de CSS voor footer (Tekst (midden)*/
+.footerstyle{
+    text-decoration: none;
+    color: white;
+}
+
+/*! Dit is de CSS voor footer (Tekst hover (midden)*/
+.footerstyle:hover{
+    color: #996f52;
+}
+
+/*? Dit is de CSS voor forum (Container (midden)*/
+.formcontact{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*? Dit is de CSS voor forum (Background (midden)*/
+/** Deze is ook Tijdelijk moet later weg*/
+.formbg{
+    background-color: red;
+}
+
+/*? Dit is de CSS voor forum (input vakjes (Links)*/
+input[type=text], select, textarea {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    resize: vertical;
+    background-color: #ebe2dc;
+    font-family: sans-serif;
+    color: grey;
+}
+
+/*? Dit is de CSS voor forum (verzendknopje (Midden)*/
+input[type=submit] {
+    background-color: #996f52;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    outline: none;
+    border-radius: 2px;
+}
+
+/*? Dit is de CSS voor forum (verzendknopje (Midden)*/
+input[type=submit]:hover {
+    background-color: #b2815d;
+}
+
+/*? Dit is de CSS voor forum (Tekst (Links)*/
+.formtext{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 25%;
+}
+
+.adresholder{
+    background-color: #b2815d;
+    color: white;
+    font-family: sans-serif;
+    padding:30px;
+    margin-top: 50px;
+    height: 230px;
+    text-decoration: none;
+}
+
+.contactinfo{
+    text-decoration: none;
+    color: white;
+}
+
+.contactinfo:hover{
+    color: black;
+}
+
+.googlemaps{
+    width: 500px;
+    height: 250px;
+    margin-top: -220px;
+    float: right;
+}
+
+.leesmeer{
+    text-decoration: none;
+    color: #b2815d;
+}
+
+.leesmeer:hover{
+    color: black;
+}
+
+
+/*?Hier kom allemaal voor mobile support*/
+
+@media screen and (max-width: 800px) {
+    .logolam{
+        width: 50px;
+        padding-left: 10px;
+    }
+    .menuheader{
+        height: 50px;
+    }
+    .XR_Teken{
+        padding-left: 65px;
+        padding-top: 2.5px;
+        font-size: 15px;
+    }
+    .buttonmenu{
+        font-size: 15px;
+        padding:0px 10px;
+    }
+    .icon-divs {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .textplacementholder {
+        width: 60%;
+    }
+    .iconplacementholder {
+        width: 35%;
+    }
+    .decsicon {
+        font-size: 12px;
+    }
+    .webxrcontainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .iconcontainer {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .webxrtitleplaceholder {
+        width: 40%;
+    }
+    .webxrtitleplaceholder2 {
+        width: 45%;
+        margin-right: 0%;
+    }
+
+    input[type=text], select, textarea {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .formtext{
+        margin-left: 0%;
+    }
+
+    input[type=submit] {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .googlemaps{
+        width: 150px;
+        margin-top: -170px;
+    }
+
+    .adresholder{
+        font-size: 12px;
+    }
+    .formcontact{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .decsicon{
+        font-size: 20px;
+    } 
+}
