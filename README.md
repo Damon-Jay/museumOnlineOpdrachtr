@@ -12,4 +12,4 @@
 ---
 > Belangrijk: Je kan op **de tekst** klikken.👍
 ---
-[**Museum Online (Website)**](http://24114.hosts1.ma-cloud.nl/lam/Index.html)
+[**Museum Online (Website)**](https://24114.hosts1.ma-cloud.nl/lam/Index.html)
